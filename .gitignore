@@ -1,0 +1,12 @@
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+
+# Build directory
+/public
+.DS_Store
+/live
+/src/s10-beehome (Autosaved).glyphs
+/src/s10-beehome_autospace.py
+/src/venv
