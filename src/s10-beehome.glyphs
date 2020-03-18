@@ -127,7 +127,7 @@ unicode = 0041;
 },
 {
 glyphname = B;
-lastChange = "2020-03-18 16:09:28 +0000";
+lastChange = "2020-03-18 16:10:05 +0000";
 layers = (
 {
 background = {
@@ -261,12 +261,6 @@ nodes = (
 "520 1440 CURVE SMOOTH",
 "100 1440 LINE",
 "100 0 LINE"
-);
-},
-{
-closed = 0;
-nodes = (
-"435 443 LINE"
 );
 },
 {
