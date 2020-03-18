@@ -852,7 +852,6 @@ width = 822;
 }
 );
 gridLength = 16;
-gridSubDivision = 8;
 instances = (
 {
 instanceInterpolations = {
