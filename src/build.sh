@@ -8,7 +8,7 @@ glyphsSource="s10-beehome.glyphs"
 
 mkdir -p ../fonts/ ../fonts/ttf ../fonts/otf/ ../fonts/woff2/
 
-## Generate OTFs
+# Generate OTFs
 OTF_OUT=../fonts/otf
 fontmake -g $glyphsSource -o otf --output-dir $OTF_OUT -a
 
@@ -21,6 +21,19 @@ for ttf in ../fonts/ttf/*.ttf
 do
   woff2_compress $ttf
   mv ${ttf/.ttf/.woff2} ../fonts/woff2
+done
+
+# Generate VARmark
+markSource="s10-beehome-mark.glyphs"
+
+mkdir -p ../mark
+
+VF=../mark/S10Beehome-Mark.ttf
+fontmake -g $markSource -o variable --output-path $VF -a
+
+for ttf in ../mark/*.ttf
+do
+  woff2_compress $ttf
 done
 
 rm -rf master_ufo/ instance_ufo/
