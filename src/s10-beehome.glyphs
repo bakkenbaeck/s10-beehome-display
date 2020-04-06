@@ -22,7 +22,7 @@ Tag = wght;
 date = "2020-03-14 22:14:38 +0000";
 designer = "Henrik Kongsvoll";
 designerURL = "https://henrikkongsvoll.no";
-familyName = "S10 Beehome Display BETA";
+familyName = "S10 Beehome";
 fontMaster = (
 {
 alignmentZones = (
@@ -35,6 +35,7 @@ alignmentZones = (
 );
 ascender = 1628;
 capHeight = 1440;
+custom = Display;
 descender = -420;
 guideLines = (
 {
@@ -12397,7 +12398,7 @@ instances = (
 instanceInterpolations = {
 "4B6FBC9C-F998-43BC-A943-BECCA28E0CA2" = 1;
 };
-name = Regular;
+name = Display;
 }
 );
 kerning = {
