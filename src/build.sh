@@ -4,14 +4,9 @@ set -e
 
 ### WIP build script for BB Sans based on a build script by weiweihuanghuang and Mike LaGuttuta ~~
 
-glyphsSource="bb-sans-master.glyphs"
+glyphsSource="s10-beehome.glyphs"
 
-mkdir -p ../fonts/ ../fonts/ttf ../fonts/otf/ ../fonts/var/ ../fonts/woff2/
-
-# Generate VARs
-VF=../fonts/var/BBSans-VAR.ttf
-fontmake -g $glyphsSource -o variable --output-path $VF -a
-
+mkdir -p ../fonts/ ../fonts/ttf ../fonts/otf/ ../fonts/woff2/
 
 ## Generate OTFs
 OTF_OUT=../fonts/otf
@@ -26,11 +21,6 @@ for ttf in ../fonts/ttf/*.ttf
 do
   woff2_compress $ttf
   mv ${ttf/.ttf/.woff2} ../fonts/woff2
-done
-
-for ttf in ../fonts/var/*.ttf
-do
-  woff2_compress $ttf
 done
 
 rm -rf master_ufo/ instance_ufo/
