@@ -5,7 +5,9 @@ DisplayStrings = (
 "2??",
 2Z2,
 "/OE",
-"0123456789"
+"0123456789",
+"/apple",
+"¶"
 );
 copyright = "© Henrik Kongsvoll 2020";
 customParameters = (
@@ -10825,11 +10827,64 @@ unicode = 0026;
 {
 color = 6;
 glyphname = paragraph;
-lastChange = "2020-04-06 13:41:56 +0000";
+lastChange = "2020-04-06 15:22:47 +0000";
 layers = (
 {
 layerId = "4B6FBC9C-F998-43BC-A943-BECCA28E0CA2";
-width = 1200;
+paths = (
+{
+closed = 1;
+nodes = (
+"2720 -420 OFFCURVE",
+"3160 20 OFFCURVE",
+"3160 604 CURVE SMOOTH",
+"3160 1188 OFFCURVE",
+"2720 1628 OFFCURVE",
+"2136 1628 CURVE SMOOTH",
+"1552 1628 OFFCURVE",
+"1112 1188 OFFCURVE",
+"1112 604 CURVE SMOOTH",
+"1112 20 OFFCURVE",
+"1552 -420 OFFCURVE",
+"2136 -420 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"924 -249 OFFCURVE",
+"1092 118 OFFCURVE",
+"1092 604 CURVE SMOOTH",
+"1092 1090 OFFCURVE",
+"924 1457 OFFCURVE",
+"702 1457 CURVE SMOOTH",
+"480 1457 OFFCURVE",
+"312 1090 OFFCURVE",
+"312 604 CURVE SMOOTH",
+"312 118 OFFCURVE",
+"480 -249 OFFCURVE",
+"702 -249 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"233 -78 OFFCURVE",
+"293 204 OFFCURVE",
+"292 604 CURVE SMOOTH",
+"291 1005 OFFCURVE",
+"231 1287 OFFCURVE",
+"146 1287 CURVE SMOOTH",
+"60 1287 OFFCURVE",
+"0 1005 OFFCURVE",
+"0 604 CURVE SMOOTH",
+"0 204 OFFCURVE",
+"60 -78 OFFCURVE",
+"146 -78 CURVE SMOOTH"
+);
+}
+);
+width = 3160;
 }
 );
 unicode = 00B6;
@@ -12780,6 +12835,6 @@ tH = "148";
 };
 LWPluginVersion = "1429";
 };
-versionMajor = 0;
-versionMinor = 100;
+versionMajor = 1;
+versionMinor = 0;
 }
