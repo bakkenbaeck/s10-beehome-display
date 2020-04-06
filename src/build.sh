@@ -10,11 +10,11 @@ mkdir -p ../fonts/ ../fonts/ttf ../fonts/otf/ ../fonts/woff2/
 
 ## Generate OTFs
 OTF_OUT=../fonts/otf
-fontmake -g $glyphsSource -o otf -i --output-dir $OTF_OUT -a
+fontmake -g $glyphsSource -o otf --output-dir $OTF_OUT -a
 
 # Generate TTFs
 TTF_OUT=../fonts/ttf
-fontmake -g $glyphsSource -o ttf -i --output-dir $TTF_OUT -a
+fontmake -g $glyphsSource -o ttf --output-dir $TTF_OUT -a
 
 # Generate woff2
 for ttf in ../fonts/ttf/*.ttf
