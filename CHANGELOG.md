@@ -4,7 +4,7 @@
 #### Changed
 - ```Ø``` wrong RSB
 - file cleanup
-- general kerning cleanup
+- compress and clean kerning tables
 
 ### [1.0.0] 2020-04-15
 #### Added
