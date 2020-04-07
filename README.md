@@ -30,4 +30,4 @@ brew tap bramstein/webfonttools
 brew install woff2
 ```
 
-After installing the dependencies. Run `sh build.sh` from this directory to build the fonts.
+After installing the dependencies. Run `sh build.sh` from ./src/build.sh to build the fonts.
