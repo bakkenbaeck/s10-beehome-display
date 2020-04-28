@@ -1,6 +1,6 @@
 {
 .appVersion = "1286";
-copyright = "© Henrik Kongsvoll 2020";
+copyright = "© Henrik Kongsvoll 2020 under SIL Open Font License";
 customParameters = (
 {
 name = Axes;
@@ -12339,5 +12339,5 @@ tH = "148";
 LWPluginVersion = "1429";
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 100;
 }
