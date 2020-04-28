@@ -1,6 +1,9 @@
 # Changelog
 
 ### [Unreleased]
+#### Added
+- ```SIL OPEN FONT LICENSE``` LICENSE.txt doc
+
 #### Changed
 - ```Ø``` wrong RSB
 - file cleanup
