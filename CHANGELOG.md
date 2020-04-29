@@ -1,9 +1,10 @@
 # Changelog
 
-### [UNRELEASED]
+### [1.2.0] 2020-04-29
 #### Changed
 - nametable changes
 - removed ```Display``` from family name, so it doesn't appear twice
+- ```ampersand``` inktraps
 
 ### [1.1.0] 2020-04-28
 #### Added
