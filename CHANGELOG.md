@@ -1,6 +1,11 @@
 # Changelog
 
-### [Unreleased]
+### [UNRELEASED]
+#### Changed
+- nametable changes
+- removed ```Display``` from family name, so it doesn't appear twice
+
+### [1.1.0] 2020-04-28
 #### Added
 - ```SIL OPEN FONT LICENSE``` LICENSE.txt doc
 

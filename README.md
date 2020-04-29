@@ -4,6 +4,9 @@
 ![BEEHOME1](/res/beehomeV1-1.png)
 ![BEEHOME1](/res/beehomeV1-2.png)
 
+## Downloading fonts
+Get the latest release [→ here](https://github.com/bakkenbaeck/s10-beehome-display/releases/latest)
+
 ## Mark parameters
 The Beehome mark is built on a variable font tied up to the build.sh script. 
 The circles are located on unicode blocks ```U+25D0, U+25D1 and U+25D2```. For convenience they are also tied to ```1, 2``` and ```3``` -- while the ``` apple``` symbol contain the logo as one unit. 
